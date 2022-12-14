@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "fix": "next lint --fix",
-    "mock": "yarn json-server --watch backend/db.json -p 4000",
+    "mock": "yarn json-server --watch backend/db.json -p 4000 -d 4000",
     "serve": "yarn concurrently \"yarn dev\" \"yarn mock\""
   },
   "dependencies": {

@@ -14,6 +14,7 @@ const Home: NextPage = () => {
         </Head>
 
         <h1>Главная страница</h1>
+        <pre>Ознакомительный проект, который использует функции Next.js</pre>
       </div>
     </MainLayout>
   )

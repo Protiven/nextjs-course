@@ -1,5 +1,6 @@
 const APP_ROUTES = {
-  root: '/'
+  root: '/',
+  posts: '/posts'
 }
 
 export default APP_ROUTES
